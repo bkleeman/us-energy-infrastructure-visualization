@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -28,11 +28,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  background-color: #024964;
+  color: white;
+  position: relative;
+  width: 50%;
+}
+
+.legend {
+  border-top: 2px solid black;
+  background-color: white;
+  text-align: center;
+  width: 10%;
+  position: absolute;
+  right: 5%;
+}
+
+.map {
+  text-align: center;
+  position: absolute;
+  /* left: 50%; */
+  background-color: #E7EFF2;
+  width: 100%;
+}
+
+.map-options {
+  border-right: 2px solid black;
+  background-color: white;
+  position: absolute;
+  left: 5%;
+  padding-right: 3%;
+  text-align: center;
 }

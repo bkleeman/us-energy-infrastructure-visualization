@@ -1,23 +1,26 @@
 import logo from './logo.svg';
+import Header from './components/Header'
 import './App.css';
+import MapOptionsMenu from './components/MapOptionsMenu';
+import Legend from './components/Legend';
+import Map from './components/Map'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <Header className="header"/>
+      </div>
+      <div className='map'>
+        <Map/>
+      </div>
+      <div className='map-options'>
+        <MapOptionsMenu />
+      </div>      
+      <div className='legend'>
+        <Legend />
+      </div>
+      
     </div>
   );
 }
