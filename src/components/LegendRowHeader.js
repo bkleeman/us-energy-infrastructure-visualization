@@ -1,6 +1,6 @@
-function LegendRowHeader() {
+function LegendRowHeader({name}) {
     return (
-        <p><strong>Legend row header</strong></p>
+        <p><strong>{name}</strong></p>
     )
 }
 

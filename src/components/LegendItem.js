@@ -1,9 +1,16 @@
 import LegendItemIcon from "./LegendItemIcon";
 
-function LegendItem() {
+function LegendItem({data}) {
     return (
         <>
-            <LegendItemIcon/><p>Legend item</p>
+            {data.map((item) => 
+                (
+                    <>
+                        <span><LegendItemIcon/><span> {item.name}</span></span>
+                        <br/>
+                    </>
+                ))}
+            
         </>
         
     )

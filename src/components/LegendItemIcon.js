@@ -1,6 +1,6 @@
 function LegendItemIcon() {
     return (
-        <p>Legend item icon</p>
+        <span>*</span>
     )
 }
 

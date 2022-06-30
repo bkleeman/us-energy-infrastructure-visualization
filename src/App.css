@@ -47,9 +47,9 @@
 .map {
   text-align: center;
   position: absolute;
-  /* left: 50%; */
   background-color: #E7EFF2;
   width: 100%;
+  height: 100%;
 }
 
 .map-options {
