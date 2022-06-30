@@ -1,5 +1,6 @@
-import Header from './components/Header'
+import * as d3 from 'd3'
 import './App.css';
+import Header from './components/Header'
 import MapOptionsMenu from './components/MapOptionsMenu';
 import Legend from './components/Legend';
 import Map from './components/Map'
