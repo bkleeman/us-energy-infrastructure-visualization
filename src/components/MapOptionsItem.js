@@ -4,8 +4,8 @@ function MapOptionsItem({data}) {
             {data.map((item) => 
                     (
                         <>
-                            <input type="checkbox" id={item.id} key={item.id}/>
-                            <label for={item.id} key={item.id}>
+                            <label key={item.id}>
+                                <input type="checkbox" id={item.id} key={item.id}/>
                                 {item.name}
                             </label>
                             <br/>    
